@@ -1,297 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fields>
-        <fullName>Bike_Name__c</fullName>
-        <label>Bike Name</label>
-        <required>true</required>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Bike Bazaar</label>
+    <nameField>
+        <displayFormat>BMN-{0000}</displayFormat>
+        <label>BikeModelNumber</label>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Aprilia SR 125</fullName>
-                    <default>false</default>
-                    <label>Aprilia SR 125</label>
-                </value>
-                <value>
-                    <fullName>Aprilia SR 160</fullName>
-                    <default>false</default>
-                    <label>Aprilia SR 160</label>
-                </value>
-                <value>
-                    <fullName>Aprilia SR 660</fullName>
-                    <default>false</default>
-                    <label>Aprilia SR 660</label>
-                </value>
-                <value>
-                    <fullName>Aprilia RSV4 1100 Factory</fullName>
-                    <default>false</default>
-                    <label>Aprilia RSV4 1100 Factory</label>
-                </value>
-                <value>
-                    <fullName>Bajaj Platina 110</fullName>
-                    <default>false</default>
-                    <label>Bajaj Platina 110</label>
-                </value>
-                <value>
-                    <fullName>Bajaj Pulsar 125</fullName>
-                    <default>false</default>
-                    <label>Bajaj Pulsar 125</label>
-                </value>
-                <value>
-                    <fullName>Bajaj Pulsar 150</fullName>
-                    <default>false</default>
-                    <label>Bajaj Pulsar 150</label>
-                </value>
-                <value>
-                    <fullName>Bajaj Pulsar N160</fullName>
-                    <default>false</default>
-                    <label>Bajaj Pulsar N160</label>
-                </value>
-                <value>
-                    <fullName>Bajaj Pulsar RS 200</fullName>
-                    <default>false</default>
-                    <label>Bajaj Pulsar RS 200</label>
-                </value>
-                <value>
-                    <fullName>CFMoto 300NK</fullName>
-                    <default>false</default>
-                    <label>CFMoto 300NK</label>
-                </value>
-                <value>
-                    <fullName>CFMoto 650NK</fullName>
-                    <default>false</default>
-                    <label>CFMoto 650NK</label>
-                </value>
-                <value>
-                    <fullName>CFMoto 650GT</fullName>
-                    <default>false</default>
-                    <label>CFMoto 650GT</label>
-                </value>
-                <value>
-                    <fullName>CFMoto 650MT</fullName>
-                    <default>false</default>
-                    <label>CFMoto 650MT</label>
-                </value>
-                <value>
-                    <fullName>Ducati Scrambler Icon</fullName>
-                    <default>false</default>
-                    <label>Ducati Scrambler Icon</label>
-                </value>
-                <value>
-                    <fullName>Ducati Streetfighter V4</fullName>
-                    <default>false</default>
-                    <label>Ducati Streetfighter V4</label>
-                </value>
-                <value>
-                    <fullName>Ducati XDiavel</fullName>
-                    <default>false</default>
-                    <label>Ducati XDiavel</label>
-                </value>
-                <value>
-                    <fullName>Ducati Panigale V4</fullName>
-                    <default>false</default>
-                    <label>Ducati Panigale V4</label>
-                </value>
-                <value>
-                    <fullName>Hero Pleasure +</fullName>
-                    <default>false</default>
-                    <label>Hero Pleasure +</label>
-                </value>
-                <value>
-                    <fullName>Hero Super Splendor</fullName>
-                    <default>false</default>
-                    <label>Hero Super Splendor</label>
-                </value>
-                <value>
-                    <fullName>Hero Xtreme 160R</fullName>
-                    <default>false</default>
-                    <label>Hero Xtreme 160R</label>
-                </value>
-                <value>
-                    <fullName>Hero Xtreme 200S</fullName>
-                    <default>false</default>
-                    <label>Hero Xtreme 200S</label>
-                </value>
-                <value>
-                    <fullName>Hero Xpulse 200 4V</fullName>
-                    <default>false</default>
-                    <label>Hero Xpulse 200 4V</label>
-                </value>
-                <value>
-                    <fullName>Honda Activa 6G</fullName>
-                    <default>false</default>
-                    <label>Honda Activa 6G</label>
-                </value>
-                <value>
-                    <fullName>Honda SP 125</fullName>
-                    <default>false</default>
-                    <label>Honda SP 125</label>
-                </value>
-                <value>
-                    <fullName>Honda X-Blade</fullName>
-                    <default>false</default>
-                    <label>Honda X-Blade</label>
-                </value>
-                <value>
-                    <fullName>Honda CB300R</fullName>
-                    <default>false</default>
-                    <label>Honda CB300R</label>
-                </value>
-                <value>
-                    <fullName>Honda Hness CB350</fullName>
-                    <default>false</default>
-                    <label>Honda Hness CB350</label>
-                </value>
-                <value>
-                    <fullName>Jawa Standard</fullName>
-                    <default>false</default>
-                    <label>Jawa Standard</label>
-                </value>
-                <value>
-                    <fullName>Jawa 42</fullName>
-                    <default>false</default>
-                    <label>Jawa 42</label>
-                </value>
-                <value>
-                    <fullName>Jawa Perak</fullName>
-                    <default>false</default>
-                    <label>Jawa Perak</label>
-                </value>
-                <value>
-                    <fullName>Royal Enfield Bullet 350</fullName>
-                    <default>false</default>
-                    <label>Royal Enfield Bullet 350</label>
-                </value>
-                <value>
-                    <fullName>Royal Enfield Classic 350</fullName>
-                    <default>false</default>
-                    <label>Royal Enfield Classic 350</label>
-                </value>
-                <value>
-                    <fullName>Royal Enfield Hunter 350</fullName>
-                    <default>false</default>
-                    <label>Royal Enfield Hunter 350</label>
-                </value>
-                <value>
-                    <fullName>Royal Enfield Continental GT 650</fullName>
-                    <default>false</default>
-                    <label>Royal Enfield Continental GT 650</label>
-                </value>
-                <value>
-                    <fullName>Suzuki Access 125</fullName>
-                    <default>false</default>
-                    <label>Suzuki Access 125</label>
-                </value>
-                <value>
-                    <fullName>Suzuki Gixxer</fullName>
-                    <default>false</default>
-                    <label>Suzuki Gixxer</label>
-                </value>
-                <value>
-                    <fullName>Suzuki Gixxer SF</fullName>
-                    <default>false</default>
-                    <label>Suzuki Gixxer SF</label>
-                </value>
-                <value>
-                    <fullName>Suzuki Gixxer SF 250</fullName>
-                    <default>false</default>
-                    <label>Suzuki Gixxer SF 250</label>
-                </value>
-                <value>
-                    <fullName>Suzuki Gixxer 250</fullName>
-                    <default>false</default>
-                    <label>Suzuki Gixxer 250</label>
-                </value>
-                <value>
-                    <fullName>TVS Jupiter</fullName>
-                    <default>false</default>
-                    <label>TVS Jupiter</label>
-                </value>
-                <value>
-                    <fullName>TVS Raider 125</fullName>
-                    <default>false</default>
-                    <label>TVS Raider 125</label>
-                </value>
-                <value>
-                    <fullName>TVS Apache RTR 160</fullName>
-                    <default>false</default>
-                    <label>TVS Apache RTR 160</label>
-                </value>
-                <value>
-                    <fullName>TVS Apache RTR 160 4V</fullName>
-                    <default>false</default>
-                    <label>TVS Apache RTR 160 4V</label>
-                </value>
-                <value>
-                    <fullName>TVS Apache RTR 180</fullName>
-                    <default>false</default>
-                    <label>TVS Apache RTR 180</label>
-                </value>
-                <value>
-                    <fullName>TVS Apache RTR 180 4V</fullName>
-                    <default>false</default>
-                    <label>TVS Apache RTR 180 4V</label>
-                </value>
-                <value>
-                    <fullName>TVS Apache RR310</fullName>
-                    <default>false</default>
-                    <label>TVS Apache RR310</label>
-                </value>
-                <value>
-                    <fullName>Triumph Bonneville T120</fullName>
-                    <default>false</default>
-                    <label>Triumph Bonneville T120</label>
-                </value>
-                <value>
-                    <fullName>Triumph Speed Twin</fullName>
-                    <default>false</default>
-                    <label>Triumph Speed Twin</label>
-                </value>
-                <value>
-                    <fullName>Vespa SXL 125</fullName>
-                    <default>false</default>
-                    <label>Vespa SXL 125</label>
-                </value>
-                <value>
-                    <fullName>Vespa SXL 150</fullName>
-                    <default>false</default>
-                    <label>Vespa SXL 150</label>
-                </value>
-                <value>
-                    <fullName>Yamaha Fascino 125</fullName>
-                    <default>false</default>
-                    <label>Yamaha Fascino 125</label>
-                </value>
-                <value>
-                    <fullName>Yamaha Ray ZR 125</fullName>
-                    <default>false</default>
-                    <label>Yamaha Ray ZR 125</label>
-                </value>
-                <value>
-                    <fullName>Yamaha FZ FI</fullName>
-                    <default>false</default>
-                    <label>Yamaha FZ FI</label>
-                </value>
-                <value>
-                    <fullName>Yamaha R15S</fullName>
-                    <default>false</default>
-                    <label>Yamaha R15S</label>
-                </value>
-                <value>
-                    <fullName>Yezdi Roadster</fullName>
-                    <default>false</default>
-                    <label>Yezdi Roadster</label>
-                </value>
-                <value>
-                    <fullName>Yezdi Scrambler</fullName>
-                    <default>false</default>
-                    <label>Yezdi Scrambler</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Bike Bazaar</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>
